@@ -187,6 +187,7 @@
 					39 00 00 00 00 00 01 2C
 				];
 				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-update = <0x51 4 2>;
 
 				qcom,compression-mode = "dsc";
 				qcom,mdss-dsc-config-by-manufacture-cmd;
@@ -341,6 +342,7 @@
 					39 00 00 00 00 00 01 2C
 				];
 				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-update = <0x51 4 2>;
 
 				qcom,compression-mode = "dsc";
 				qcom,mdss-dsc-config-by-manufacture-cmd;
@@ -481,6 +483,7 @@
 					39 00 00 00 00 00 01 2C
 				];
 				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-update = <0x51 4 2>;
 
 				qcom,mdss-dsi-timing-switch-command = [
 					/* 90 Hz  cmd_1*/
